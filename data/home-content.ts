@@ -11,7 +11,7 @@ import type {
 export const heroContent: HeroContent = {
   title: "Capture 3D locale, rapide et exploitable",
   subtitle:
-    "Studio Modelis transforme vos sites en jumeaux numériques Matterport prêts à l'usage métier.",
+    "Studio Modelis intervient sur l'axe Rabat · Casablanca · Témara et partout au Maroc sur devis — tout type de bien.",
   ctaLabel: "Demander un devis",
   ctaHref: "/contact",
   imageSrc: "/images/hero-operator.png",
@@ -44,9 +44,9 @@ export const verticalCards: VerticalCard[] = [
     imageAlt: "Capteur de scan 3D en gros plan",
   },
   {
-    title: "Immobilier tertiaire",
+    title: "Immobilier & actifs",
     description:
-      "Facilitez commercialisation, onboarding et gestion technique des espaces professionnels.",
+      "Tout type de bien : résidentiel, tertiaire, commercial. Visite 3D pour valoriser, commercialiser ou documenter.",
     href: "/solutions/immobilier-tertiaire",
     imageSrc: "/images/measurements.png",
     imageAlt: "Mesures et annotations précises dans un scan 3D",
@@ -55,9 +55,9 @@ export const verticalCards: VerticalCard[] = [
 
 export const valuePillars: ValuePillar[] = [
   {
-    title: "Capture maîtrisée",
+    title: "Intervention locale",
     description:
-      "Intervention locale avec protocole clair pour des scans cohérents, même sur sites complexes.",
+      "Basé sur l'axe Rabat – Casablanca – Témara. Déplacement partout au Maroc sur devis, tout type de bien.",
   },
   {
     title: "Rigueur opérationnelle",
@@ -72,11 +72,11 @@ export const valuePillars: ValuePillar[] = [
 ];
 
 export const pricingInfo: PricingInfo = {
-  basePrice: "Scan à partir de 129€ HT",
-  priceAmount: "129€",
-  baseDescription: "Tarif d'appel pour capture Matterport selon conditions d'intervention.",
+  basePrice: "Chiffrage sur devis",
+  priceAmount: "Sur devis",
+  baseDescription: "Chaque mission est chiffrée selon la surface, la complexité et les livrables attendus.",
   customDescription:
-    "Plans DWG, exports nuage de points et maquettes IFC sur devis selon surface et complexité.",
+    "Visite immersive, plans DWG, exports nuage de points et maquettes IFC — devis gratuit sous 24h.",
 };
 
 export const proofItems: ProofItem[] = [
@@ -124,15 +124,15 @@ export const faqItems: FaqItem[] = [
   },
   {
     id: "surface",
-    title: "Avez-vous une limite de surface ou de type de site ?",
+    title: "Intervenez-vous partout au Maroc ?",
     content:
-      "Non, la méthodologie est adaptée à la complexité du site. Le cadrage en amont permet de confirmer le temps de capture et les livrables attendus.",
+      "Nous sommes basés sur l'axe Rabat – Casablanca – Témara pour les missions courantes. Tout déplacement hors zone est possible et chiffré sur devis selon la localisation. Aucune limite de surface ni de type de bien.",
   },
 ];
 
 export const statsItems: StatItem[] = [
   { value: 48, suffix: "h", label: "Délai moyen de livraison" },
   { value: 4, suffix: "", label: "Secteurs métier couverts" },
-  { value: 129, suffix: "€", label: "Tarif d'entrée HT" },
+  { value: 24, suffix: "h", label: "Devis gratuit sous" },
   { value: 3, suffix: "", label: "Formats de livrables" },
 ];

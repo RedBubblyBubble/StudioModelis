@@ -52,7 +52,7 @@ export function HeroSection() {
       />
 
       {/* ── Contenu positionné en bas ── */}
-      <Container className="relative flex min-h-screen flex-col justify-end pb-16 pt-28">
+      <Container className="relative flex min-h-screen flex-col justify-end pb-10 pt-20 md:pb-16 md:pt-28">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -74,7 +74,7 @@ export function HeroSection() {
           {/* Titre serif italic massif */}
           <h1
             style={{ fontFamily: "var(--font-display)" }}
-            className="text-4xl italic font-semibold leading-[1.05] text-white md:text-5xl lg:text-6xl"
+            className="text-3xl italic font-semibold leading-[1.05] text-white md:text-5xl lg:text-6xl"
           >
             Une visite.<br />
             <span className="not-italic font-bold text-accent">Vos plans, votre esquisse visuelle.</span><br />
@@ -82,18 +82,18 @@ export function HeroSection() {
           </h1>
 
           {/* Sous-titre */}
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-white/70 md:text-lg">
+          <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/70 md:mt-6 md:text-lg">
             Scan Matterport professionnel — visite virtuelle 360°, plans DWG,
             nuage de points. Fini les relevés manuels.
           </p>
 
-          {/* Prix */}
+          {/* Devis */}
           <p className="mt-3 text-sm font-medium text-accent/80">
-            À partir de <span className="text-accent font-bold text-base">129€ HT</span> · Devis gratuit sous 24h
+            Chiffrage <span className="text-accent font-bold text-base">sur devis</span> · Réponse sous 24h
           </p>
 
           {/* CTAs */}
-          <div className="mt-8 flex flex-wrap items-center gap-4">
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
             <ButtonLink href={heroContent.ctaHref}>
               Demander un devis gratuit
             </ButtonLink>

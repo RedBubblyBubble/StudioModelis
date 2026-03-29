@@ -14,11 +14,11 @@ import { WhyMetascan } from "@/components/sections/why-metascan";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Capture 3D Matterport locale",
+  title: "Scan 3D Matterport — Rabat, Casablanca, Témara & Maroc",
   description:
-    "Prestataire local efficace en scan 3D Matterport. Scan à partir de 129€ HT, livrables techniques sur devis.",
+    "Studio Modelis, prestataire scan 3D Matterport basé sur l'axe Rabat – Casablanca – Témara. Tout type de bien immobilier, partout au Maroc. Chiffrage sur devis.",
   path: "/",
-  keywords: ["scan 129€", "capture 3D locale"],
+  keywords: ["scan 3D Maroc", "Matterport Rabat", "Matterport Casablanca", "visite virtuelle Maroc"],
 });
 
 export default function HomePage() {

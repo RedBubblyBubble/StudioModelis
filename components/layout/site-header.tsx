@@ -24,7 +24,7 @@ export function SiteHeader() {
   return (
     <header
       style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 9999 }}
-      className={`h-40 overflow-hidden transition-colors duration-300 ${
+      className={`h-16 md:h-40 overflow-hidden transition-colors duration-300 ${
         scrolled
           ? "bg-black/95 backdrop-blur-md"
           : "bg-gradient-to-b from-black/80 via-black/50 to-transparent"

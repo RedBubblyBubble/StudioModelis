@@ -54,20 +54,20 @@ export const solutionPages: SolutionPageContent[] = [
   },
   {
     slug: "immobilier-tertiaire",
-    title: "Immobilier tertiaire",
+    title: "Immobilier & actifs",
     intro:
-      "Valorisez et exploitez vos actifs tertiaires grâce à des visites 3D précises et immédiatement partageables.",
+      "Tout type de bien immobilier — résidentiel, tertiaire, commercial. Visite 3D précise pour valoriser, commercialiser ou documenter, partout au Maroc.",
     challenges: [
-      "Commercialisation de surfaces avec peu de visites physiques",
-      "Onboarding technique de nouveaux occupants",
-      "Besoin de documentation fiable pour exploitation",
+      "Commercialisation à distance avec peu de visites physiques",
+      "Documentation fiable d'un bien avant transaction ou travaux",
+      "Onboarding technique de nouveaux occupants ou exploitants",
     ],
     deliverables: [
-      "Visite immersive pour commercialisation",
-      "Référentiel spatial partagé avec exploitants",
+      "Visite immersive Matterport pour tout type de bien",
+      "Référentiel spatial partagé avec acheteurs, locataires ou exploitants",
       "Plans et livrables techniques sur devis",
     ],
-    ctaText: "Accélérez la valorisation de vos actifs",
+    ctaText: "Obtenez un devis pour votre bien",
   },
 ];
 

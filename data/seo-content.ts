@@ -1,10 +1,11 @@
 export const defaultKeywords = [
-  "scan 3D",
-  "Matterport",
+  "scan 3D Maroc",
+  "Matterport Maroc",
+  "visite virtuelle Rabat",
+  "visite virtuelle Casablanca",
   "relevé 3D",
   "nuage de points",
   "plans DWG",
   "maquette IFC",
-  "prestataire local",
   "Studio Modelis",
 ];

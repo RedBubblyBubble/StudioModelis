@@ -55,17 +55,17 @@ export function CaseShowcase() {
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(null);
 
   return (
-    <section className="py-24 border-t border-border">
+    <section className="py-14 border-t border-border md:py-24">
       <Container>
 
         {/* ── En-tête ── */}
-        <MotionReveal className="mb-16">
+        <MotionReveal className="mb-8 md:mb-16">
           <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-accent">
             Étude de cas
           </p>
           <h2
             style={{ fontFamily: "var(--font-display)" }}
-            className="text-4xl italic font-semibold text-fg md:text-5xl"
+            className="text-2xl italic font-semibold text-fg md:text-5xl"
           >
             Du scan au projet,<br />
             <span className="not-italic">une mission complète.</span>
@@ -73,10 +73,10 @@ export function CaseShowcase() {
         </MotionReveal>
 
         {/* ── Étapes ── */}
-        <div className="space-y-20">
+        <div className="space-y-12 md:space-y-20">
           {STEPS.map((step, stepIdx) => (
             <MotionReveal key={step.number} delay={0.05}>
-              <div className="grid gap-10 md:grid-cols-[200px_1fr]">
+              <div className="grid gap-5 md:gap-10 md:grid-cols-[200px_1fr]">
 
                 {/* Numéro + label */}
                 <div className="flex flex-row items-start gap-5 md:flex-col md:gap-2 md:pt-1">
@@ -142,7 +142,7 @@ export function CaseShowcase() {
 
               {/* Séparateur entre étapes */}
               {stepIdx < STEPS.length - 1 && (
-                <div className="mt-20 flex items-center gap-4">
+                <div className="mt-12 flex items-center gap-4 md:mt-20">
                   <div className="h-px flex-1 bg-border/40" />
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-accent/50" aria-hidden="true">
                     <path d="M8 3v10M8 13l-3-3M8 13l3-3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
